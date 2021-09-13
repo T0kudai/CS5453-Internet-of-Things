@@ -1,0 +1,22 @@
+UAV Simulation
+=============================
+
+Running the code
+-----------------------------
+The code relies on numpy library for some functions. This will be installed when execution is started.
+If the numpy library is already present no changes will be made. In case you do not want this behaviour, remove the lines,
+start powershell "pip install numpy"
+pause
+from run.ps1.
+
+Make sure HiveMQTT is up and running before starting this program.
+Keep all input files in a folder named sample_inputs where file to be opened by HQ is vehicle_location.txt and UAV files are uav1.txt, uav2.txt, ...
+Execute the run.ps1 file in Powershell inside Windows environment. The program will install numpy library on your system. Wait for numpy to be installed.
+Once numpy is installed, press the enter key on the terminal that says "Press Enter key to continue."
+Once done, the execution will start and wait till execution is completed.
+Once execution is completed, the terminal windows running HQ.py code will automatically close. Other windows need to be closed manually.
+The results will be available in output.txt file..
+-----------------------------
+
+Vishal Singh Yadav
+CS20MTECH01001
